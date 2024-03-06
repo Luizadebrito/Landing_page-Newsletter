@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../components/fonts/poppins-regular-webfont.woff2') format('woff2'),
+        url('../components/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #222222;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#l_title {}
+
+h1 {
+    font-family: 'poppinsregular' format(woff2);
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.l_title__color {
+    color: #9c06cee3;
+    font-size: 3rem;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding-top: .5rem;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.l_list__btn {
+    border: 2px solid #9c06cea1;
+    border-radius: 10px;
+    padding: .8rem;
+
+}
+
+.l_list__btn1 {
+    border: none;
+}
+
+.l_list__btn:hover {
+    background-color: #9c06ce;
+    color: #fff;
+}
+
+a:hover {
+    color: #9c06ce;
+}
+
+/* Configuração da Main*/
+
+.container-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+div#l_form {
+    color: #fff;
+}
+
+.l_form__color {
+    color: #9c06ce;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'poppinsmedium';
+}
+
+.l_form__text {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+form {
+    padding-top: 1.5rem;
+    text-align: start;
+}
+
+input#iemail,
+input#ipassword {
+    background-color: #fff;
+    border: none;
+    padding: 1.4rem;
+    margin: 0 .3rem .8rem 0;
+    border-radius: 15px;
+    width: 60%;
+}
+
+input#isubmit {
+    background-color: #9c06ce;
+    color: #fff;
+    padding: .9rem 3rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.l_form__submit {}
+
+input#iemail:hover,
+input#ipassword:hover {
+    border: 1px solid #9c06ce;
+}
+
+img {
+    animation: 1s;
+}
