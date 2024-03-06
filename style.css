@@ -70,7 +70,7 @@ ul>li {
     list-style-type: none;
 }
 
-ul>li>a {
+ul > li > a {
     text-decoration: none;
     color: #fff;
 }
@@ -88,6 +88,14 @@ ul>li>a {
 
 .l_list__btn:hover {
     background-color: #9c06ce;
+    color: #fff;
+}
+
+.l_list__btn {
+    color: #fff;
+}
+
+.l_list__account:hover {
     color: #fff;
 }
 
